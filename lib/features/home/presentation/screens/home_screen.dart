@@ -13,10 +13,9 @@ class HomeScreen extends StatelessWidget {
       body: Center(
         child: ElevatedButton(
           onPressed: () {
-            context.push("/123");
-            // context.push("${AppRoutes.detailsScreen}");
+            context.push("/home/offers");
           },
-          child: const Text("Go to details screen"),
+          child: const Text("Go to offers screen"),
         ),
       ),
     );
